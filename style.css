@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 98%;
+  margin: auto;
+  border: 1px solid #ccc;
+}
+section {
+  padding-bottom: 30px;
+}
+hr {
+  margin: 5px 0;
+}
+.header {
+  background: #5b9cd6;
+  margin-bottom: 50px;
+  padding: 50px 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.header-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+}
+.header-title h1 {
+  font-size: 80px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.address {
+  width: 40%;
+  margin-top: 20px;
+}
+.address h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.address p {
+  margin-bottom: 5px;
+}
+.section-title {
+  font-size: 26px;
+  font-weight: 900;
+}
+.summery p {
+  font-size: 18px;
+  line-height: 1.3;
+}
+.skills-highlights {
+  overflow: hidden;
+}
+.highlight-items {
+  width: 50%;
+  margin: 10px 50px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.item-left {
+  float: left;
+}
+.item-right {
+  float: right;
+}
+.highlight-items li {
+  padding: 3px;
+}
+.experience p {
+  padding: 3px;
+  font-size: 20px;
+}
+.experience span {
+  font-weight: 900;
+}
+.experience ul {
+  margin-left: 50px;
+}
+.experience li {
+  padding: 3px 0;
+  font-size: 18px;
+}
+.education p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.education span {
+  font-weight: 900;
+}
+.languages p {
+  font-size: 18px;
+}
+.certifications span {
+  font-weight: 900;
+}
+footer {
+  width: 100%;
+  height: 30px;
+  background: #5b9cd6;
+}
+/* Media Query */
+@media only screen and (max-width: 768px) {
+  .header-description {
+    display: inline-block;
+  }
+  .header-title h1 {
+    font-size: 50px;
+  }
+  .address {
+    width: 100%;
+  }
+  .highlight-items {
+    width: 100%;
+  }
+  .item-right {
+    float: left;
+  }
+}
